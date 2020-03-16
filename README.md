@@ -20,6 +20,7 @@ Nama Maya
 NIM 08133
 Out[3]:
 null
+
 Soal 7.2 Terdapat sebuah data tabular Mahasiswa dengan dengan tabel sebagai berikut :
 | NIM | Nama |IPK|
 |"08111"|"Dono "|3.0| |"08113"|"Kasino"|2.7| |"08115"|"Indro "|3.1|
@@ -47,7 +48,8 @@ NIM Indro
 IPK 3.1
 Out[40]:
 null
-+){
++)
+{
     System.out.println("Nama "+mahasiswa[m][0]);
     System.out.println("NIM "+mahasiswa[m][1]);
     System.out.println("IPK "+mahasiswa[m][2]);
@@ -63,6 +65,9 @@ NIM Indro
 IPK 3.1
 Out[40]:
 null
+
+
+
 Soal 7.4 Implementasikan kode Program 7.4 dibawah ini, lakukan juga inisisiali untuk element element dari array yang dibutuhkan
 In [23]:
 //Program 7.3
@@ -122,6 +127,9 @@ import java.util.ArrayList;
 
         // menampilkan banyak isi kantong ajaib
         System.out.println("Kantong ajaib berisi "+ kantongAjaib.size() +" item");
+
+
+
 Soal 7.6 Lakukan eksekusi dari kode diatas dan amati hasilnya
 In [28]:
 import java.util.ArrayList;
@@ -166,6 +174,9 @@ import java.util.HashMap;
 
         // mencetak semua isi dari objek days
         System.out.println("Isi objek days: " + hari);
+
+
+
 Soal 7.7 Lakukan eksekusi dari kode diatas dan amati hasilnya
 In [29]:
 import java.util.HashMap;
@@ -189,6 +200,8 @@ import java.util.HashMap;
 Isi objek days: {1=Minggu, 2=Senin, 3=Selasa, 4=Rabu, 5=Kamis, 6=Jum'at, 7=Sabtu}
 Out[29]:
 null
+
+
 In [ ]:
 //program 7.8 
         import java.util.HashMap;
@@ -209,6 +222,8 @@ In [ ]:
         System.out.println("Isi objek days: " + harihari);
         // mengambil hari senin
         System.out.println("Hari kedua: " + harihari.get(2));
+
+
 Soal 7.8 Lakukan eksekusi dari kode diatas dan amati hasilnya
 In [30]:
 //program 7.8 
@@ -262,6 +277,8 @@ import java.util.HashMap;
         // menghapus semua hari <-- oh tidak kiamat donk!
         days.clear();
         System.out.println("Isi objek days: " + days);
+
+
 Soal 7.9 Lakukan eksekusi dari kode diatas dan amati hasilnya
 In [31]:
 import java.util.HashMap;
@@ -322,6 +339,9 @@ import java.util.HashMap;
 
         // mencetak semua isi dari objek days
         System.out.println("Isi objek days: " + days);
+
+
+
 Soal 7.10 Lakukan eksekusi dari kode diatas dan amati hasilnya
 In [32]:
 import java.util.HashMap;
@@ -352,6 +372,8 @@ Isi objek days: {1=Ahad, 2=Senin, 3=Selasa, 4=Rabo, 5=Kamis, 6=Jum'at, 7=Sabtu}
 Out[32]:
 null
 In [33]:
+
+
 //program 7.11
 public class Buku {
 
@@ -383,6 +405,8 @@ public class Buku {
 Out[33]:
 com.twosigma.beaker.javash.bkr903bf611.Buku
 In [34]:
+
+
 // program 7.12
 
 import java.util.HashMap;
