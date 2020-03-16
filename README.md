@@ -1,4 +1,5 @@
 Soal 7.1 Implementasikan kode berikut yang merupakan contoh dan cara mengakses data dari array dua dimensi:
+
 In [3]:
 //program 7.1
 
@@ -12,6 +13,7 @@ for(int x=0; x < Siswa.length; x++){
     System.out.println("Nama "+Siswa[x][0]);
     System.out.println("NIM "+Siswa[x][1]);
 }
+
 Nama Lili
 NIM 08111
 Nama Lala
@@ -22,6 +24,7 @@ Out[3]:
 null
 
 Soal 7.2 Terdapat sebuah data tabular Mahasiswa dengan dengan tabel sebagai berikut :
+
 | NIM | Nama |IPK|
 |"08111"|"Dono "|3.0| |"08113"|"Kasino"|2.7| |"08115"|"Indro "|3.1|
 Implementasikan data tabular Mahasiswa diatas dalam sebuah array multi dimensi kedalam program 7.2
@@ -37,6 +40,7 @@ for(int m =0; m < mahasiswa.length; m++){
     System.out.println("NIM "+mahasiswa[m][1]);
     System.out.println("IPK "+mahasiswa[m][2]);
 }
+
 Nama 08111
 NIM Dono
 IPK 3.0
@@ -48,12 +52,14 @@ NIM Indro
 IPK 3.1
 Out[40]:
 null
+
 +)
 {
     System.out.println("Nama "+mahasiswa[m][0]);
     System.out.println("NIM "+mahasiswa[m][1]);
     System.out.println("IPK "+mahasiswa[m][2]);
 }
+
 Nama 08111
 NIM Dono
 IPK 3.0
